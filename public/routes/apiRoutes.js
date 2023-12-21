@@ -2,7 +2,7 @@ const apiRoute = require("express").Router();
 const path = require("path");
 const fs = require("fs");
 
-const { v4: uuidvv4 } = require("uuid");
+const { v4: uuidv4 } = require("uuid");
 
 apiRoute.get("/notes", (req, res) =>{
     res.sendFile(path.join(__dirname, "..","./db/db.json"));
