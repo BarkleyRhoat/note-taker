@@ -16,7 +16,7 @@ const readJson = () => {
 
 const writeJson = (data) => {
 
-    fs.writeFileSync(dbpath, JSON.stringify(data));
+    fs.writeFileSync(dbPath, JSON.stringify(data));
 };
 
 // routes for get and post request
