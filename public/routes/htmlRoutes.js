@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('./routes/notes', (req, res) => {
-    const notesHtmlPath = path.join(__direname, './public/notes.html');
+    const notesHtmlPath = path.join(__dirname, './public/notes.html');
     res.sendFile(notesHtmlPath);
 });
 

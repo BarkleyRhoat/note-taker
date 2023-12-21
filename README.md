@@ -25,9 +25,6 @@ application that can be used to write and save notes. this applications uses exp
 
  
   
-  [video of walkthrough]
-
-  
   ## License
 
       Licensed under the MIT license.
