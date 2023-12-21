@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
     res.sendFile(indexHtmlPath);
 });
 
-router.get('./routes/notes', (req, res) => {
+router.get('/notes', (req, res) => {
     const notesHtmlPath = path.join(__dirname, './public/notes.html');
     res.sendFile(notesHtmlPath);
 });
