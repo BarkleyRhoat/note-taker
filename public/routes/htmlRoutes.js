@@ -5,13 +5,13 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
 
-    const indexPath = path.join(__dirname, '../public/index.html');
-    res.sendFile(indexPath);
+    const indexHtmlPath = path.join(__dirname, './public/index.html');
+    res.sendFile(indexHtmlPath);
 });
 
-router.get('./notes', (req, res) => {
-    const notesPath = path.join(__direname, '../public/notes.html');
-    res.sendFile(notesPath);
+router.get('./routes/notes', (req, res) => {
+    const notesHtmlPath = path.join(__direname, './public/notes.html');
+    res.sendFile(notesHtmlPath);
 });
 
 
