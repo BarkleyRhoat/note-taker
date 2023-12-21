@@ -15,7 +15,7 @@ apiRoute.post("/notes", (req, res) => {
     let newNote = {
         title: req.body.title,
         text: req.body.text,
-        id: uuidvv4(),
+        id: uuidv4(),
     };
 
     data.push(newNote);
@@ -35,4 +35,4 @@ apiRoute.delete("/notes/:id", (req, res) => {
     res.json(data);
 });
 
-module.exports = apiRoute
+module.exports = apiRoute;
