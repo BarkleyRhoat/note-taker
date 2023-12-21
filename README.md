@@ -22,7 +22,18 @@ application that can be used to write and save notes. this applications uses exp
   ## Contributors
   n/a
   ## Testing
+Access app by clicking on link below.
+https://demo-note-taker-6230bafbd4d6.herokuapp.com/
 
+![screenshot](./public/assets/images/notetaker1.png)
+![screenshot](./public/assets/images/notetaker2.png)
+![screenshot](./public/assets/images/notetaker3.png)
+
+## credits
+
+W3 SCHOOL
+BCS tutors
+Chat GTP
  
   
   ## License
