@@ -12,4 +12,4 @@ htmlRoute.get("a", (req, res) => {
     res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-module.exports = htmlRoute
+module.exports = htmlRoute;
